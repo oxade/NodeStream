@@ -1,3 +1,3 @@
 pub mod consumer;
-pub mod types_ex;
+pub mod types;
 pub mod producer;

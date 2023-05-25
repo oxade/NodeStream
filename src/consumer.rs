@@ -1,4 +1,4 @@
-use crate::types_ex::{
+use crate::types::{
     NodeStreamConsumerError, NodeStreamMessage, NodeStreamPerEpochTopic, NodeStreamSessionId,
 };
 use kafka::consumer::{Consumer, FetchOffset};

@@ -1,4 +1,4 @@
-use crate::types_ex::{
+use crate::types::{
     NodeStreamPerEpochTopic, NodeStreamProducerError, NodeStreamTopic, NodeStreamUserPayload,
 };
 use kafka::producer::{Producer, Record};
