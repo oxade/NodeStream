@@ -13,7 +13,7 @@ members = ["."]
 
 [dependencies]
 kafka = "0.9"
-bcs = "0.1.5"
+bcs = "0.1.4"
 serde = { version = "1.0.140", features = ["derive"] }
 clap = { version = "4.1.4", features = ["derive"] }
 colored = "2.0.0"
@@ -23,3 +23,7 @@ rand = "0.8.4"
 tracing = "0.1.36"
 anyhow = "1.0.40"
 hex = "0.4.3"
+
+
+sui-types = {git = "https://github.com/MystenLabs/sui.git", rev ="b1c5dda72f751ee9cbe70837c34c5777aeb03b68"}
+#sui-types = { path = "../sui-types" }
