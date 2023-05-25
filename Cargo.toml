@@ -1,0 +1,25 @@
+[package]
+name = "node-stream"
+version = "0.0.0-dev"
+
+authors = ["oxade"]
+license = "Apache-2.0"
+publish = false
+edition = "2021"
+
+[workspace]
+members = ["."]
+
+
+[dependencies]
+kafka = "0.9"
+bcs = "0.1.5"
+serde = { version = "1.0.140", features = ["derive"] }
+clap = { version = "4.1.4", features = ["derive"] }
+colored = "2.0.0"
+tokio = { version = "1.28.1", features = ["full"] }
+thiserror = "1.0.34"
+rand = "0.8.4"
+tracing = "0.1.36"
+anyhow = "1.0.40"
+hex = "0.4.3"
